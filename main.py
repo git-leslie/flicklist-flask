@@ -15,15 +15,10 @@ def index():
     content += "<ul>"
     content += "<li>" + movie + "</li>"
     content += "</ul>"
-    
-    return content
 
-def index():
-    # choose a movie by invoking our new function
-    movie = get_random_movie()
     # TODO: pick another random movie, and display it under
     # the heading "<h1>Tommorrow's Movie</h1>"
-    content = "<h1>Tomorrow's Movie</h1>"
+    content += "<h1>Tomorrow's Movie</h1>"
     content += "<ul>"
     content += "<li>" + movie + "</li>"
     content += "</ul>"
